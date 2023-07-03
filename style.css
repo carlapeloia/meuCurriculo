@@ -1,0 +1,147 @@
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 247, 247);
+  min-width: 290px;
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+  background-color: rgb(250, 247, 247);
+}
+
+.identity #myPhoto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 247, 247);
+  border-radius: 0;
+  background-color: rgb(236, 189, 199);
+
+}
+
+.identity #myPhoto img {
+  width: 25%;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.identity #name {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.identity #name span {
+  padding: 0.3rem;
+  background-color: rgb(236, 189, 199);
+  border-radius: 2px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+#aside {
+  height: 100%;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#aside h2, #principal h2, #principal h3 {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.adjust {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4rem;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(56, 53, 53);
+   cursor: pointer;
+}
+
+a:hover {
+  color: rgb(236, 189, 199);
+}
+
+i {
+  font-size: 1.5rem;
+  margin-right: 4px;
+
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+
+#principal {
+  height: 100%;
+  width: 96%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(202, 198, 198);
+}
+
+.enfasis {
+  font-weight: bold;
+}
+
+footer {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: rgb(56, 53, 53);
+  font-weight: 600;
+  background-color: rgb(236, 189, 199);
+}
+
+@media(max-width: 500px){
+  .identity #name{
+    font-size: 1.5rem;
+  }
+
+
+}
